@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "pg": "^8.15.6"
+  }
+}
