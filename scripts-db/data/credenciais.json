@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "usuario": "qgis",
+    "senha": "qgis",
+    "db": "postgres",
+    "db_loja": "loja"
+} 
