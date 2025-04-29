@@ -1,6 +1,6 @@
 const { body } = require('express-validator');
 
-exports.validarProduto = [
+exports.validarUsuario = [
     body('nome').notEmpty().withMessage('O nome do usuario é obrigatório'),
     body('cpf').notEmpty().withMessage('O CPF é obrigatório'),
     body('email').isEmail().withMessage('EMAIL Inválido!'),
