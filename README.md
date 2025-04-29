@@ -15,7 +15,11 @@ Este é o meu projeto pessoal para aprendizado de **Node.js** com **Express** e 
 
 ### 🛠 **Estrutura do Projeto**
 
-O projeto é dividido em duas partes:
+O projeto é dividido em três partes:
+
+- **Script DB** (Python + PostgreSQL):
+- Localizado na pasta `/scripts-db`
+- Script que vai criar o banco de dados e as tabelas necessárias
 
 - **Backend** (Node.js + Express): 
   - Localizado na pasta `/backend`
