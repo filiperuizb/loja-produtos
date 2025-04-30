@@ -1,6 +1,6 @@
 # Projeto Loja
 
-Este é o meu projeto pessoal para aprendizado de **Node.js** com **Express** e **ReactJS**. Após o curso de Node e Express, decidi criar minha primeira API REST para praticar e solidificar os conhecimentos adquiridos.
+Este é o meu projeto pessoal para aprendizado de **Node.js** com **Express** e **VueJS**. Após o curso de Node e Express, decidi criar minha primeira API REST para praticar e solidificar os conhecimentos adquiridos.
 
 ### 📚 **Tecnologias Utilizadas**
 
@@ -10,8 +10,7 @@ Este é o meu projeto pessoal para aprendizado de **Node.js** com **Express** e 
   - API RESTful
 
 - **Frontend**:
-  - ReactJS
-  - JSX
+  - VueJS
 
 ### 🛠 **Estrutura do Projeto**
 
@@ -25,7 +24,7 @@ O projeto é dividido em três partes:
   - Localizado na pasta `/backend`
   - API RESTful para gerenciar produtos e clientes da loja
 
-- **Frontend** (ReactJS):
+- **Frontend** (VueJs):
   - Localizado na pasta `/frontend`
   - Interface para interação com a API (exibição de produtos, criação de novos clientes, etc.)
 
