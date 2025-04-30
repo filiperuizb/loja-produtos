@@ -37,12 +37,20 @@ O projeto é dividido em três partes:
 
 ### 📊 Funcionalidades da API
 
+#### 🛒 Produtos
 - **GET /produtos**: Retorna a lista de produtos.
 - **POST /produtos**: Adiciona um novo produto.
-- **DELETE /produtos/idkey**: Deleta um produto.
+- **DELETE /produtos/:idkey**: Deleta um produto pelo ID.
+
+#### 👤 Usuários
 - **GET /usuarios**: Retorna a lista de usuários.
 - **POST /usuarios**: Adiciona um novo usuário.
-- **DELETE /usuarios/idkey**: Deleta um usuário.
+- **DELETE /usuarios/:idkey**: Deleta um usuário pelo ID.
+
+#### 🧾 Compras
+- **GET /compras**: Retorna a lista de compras realizadas.
+- **POST /compras**: Finaliza a compra com base nos itens do carrinho de um usuário.
+
 
 ---
 
