@@ -2,23 +2,28 @@
 
 Este é o meu projeto pessoal para aprendizado de **Node.js** com **Express** e **VueJS**. Após o curso de Node e Express, decidi criar minha primeira API REST para praticar e solidificar os conhecimentos adquiridos.
 
-### 📚 **Tecnologias Utilizadas**
+### 📚 Tecnologias Utilizadas
 
-- **Backend**:
-  - Node.js
-  - Express
-  - API RESTful
+#### Backend:
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 
-- **Frontend**:
-  - VueJS
+#### Frontend:
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
 
-### 🛠 **Estrutura do Projeto**
+#### Banco de Dados / Scripts:
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+---
+
+### 🛠 Estrutura do Projeto
 
 O projeto é dividido em três partes:
 
 - **Script DB** (Python + PostgreSQL):
-- Localizado na pasta `/scripts-db`
-- Script que vai criar o banco de dados e as tabelas necessárias
+  - Localizado na pasta `/scripts-db`
+  - Script que vai criar o banco de dados e as tabelas necessárias
 
 - **Backend** (Node.js + Express): 
   - Localizado na pasta `/backend`
@@ -28,19 +33,25 @@ O projeto é dividido em três partes:
   - Localizado na pasta `/frontend`
   - Interface para interação com a API (exibição de produtos, criação de novos clientes, etc.)
 
-### 📊 **Funcionalidades da API**
+---
+
+### 📊 Funcionalidades da API
 
 - **GET /products**: Retorna a lista de produtos.
 - **POST /products**: Adiciona um novo produto.
 - **GET /clients**: Retorna a lista de clientes.
 - **POST /clients**: Adiciona um novo cliente.
 
-### 🐛 **Problemas Conhecidos**
+---
+
+### 🐛 Problemas Conhecidos
 
 Pequenos erros que foram corrigidos durante o desenvolvimento, mas ainda estou aprimorando a API para garantir estabilidade e performance.
 
-### 🎨 **Créditos Finais**
+---
 
-- 🔗 **Autor**: Filipe Ruiz Boligon
-- 📧 **Contato**: [filiperuizboligon9@gmail.com](mailto:filiperuizboligon9@gmail.com)
-- GitHub: [https://github.com/filiperuizb](https://github.com/filiperuizb)
+### 🎨 Créditos Finais
+
+- 🔗 **Autor**: Filipe Ruiz Boligon  
+- 📧 **Contato**: [filiperuizboligon9@gmail.com](mailto:filiperuizboligon9@gmail.com)  
+- 💻 **GitHub**: [https://github.com/filiperuizb](https://github.com/filiperuizb)
