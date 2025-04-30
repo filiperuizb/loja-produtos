@@ -48,12 +48,28 @@ def criarTabelas(conexao):
         ''')
 
         cursor.execute('''
+            CREATE TABLE IF NOT EXISTS usuario.carrinho_usuario (
+                idkey SERIAL PRIMARY KEY,
+                usuario_idkey INT NOT NULL,
+                produto_idkey INT NOT NULL,
+                quantidade INT NOT NULL,
+                data_adicao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                CONSTRAINT fk_usuario_idkey_carrinho FOREIGN KEY (usuario_idkey)
+                    REFERENCES usuario.usuario(idkey)
+                    ON DELETE CASCADE,
+                CONSTRAINT fk_produto_idkey_carrinho FOREIGN KEY (produto_idkey)
+                    REFERENCES produtos.produtos(idkey)
+                    ON DELETE CASCADE
+            );
+        ''')
+
+        cursor.execute('''
             CREATE TABLE IF NOT EXISTS usuario.compras_usuario (
                 idkey SERIAL PRIMARY KEY,
                 usuario_idkey INT,
                 produto_idkey INT,
                 quantidade INT,
-                data_compra TIMESTAMP,
+                data_compra TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 total NUMERIC(10, 2),
                 CONSTRAINT fk_usuario_idkey_compras FOREIGN KEY (usuario_idkey)
                     REFERENCES usuario.usuario(idkey)
