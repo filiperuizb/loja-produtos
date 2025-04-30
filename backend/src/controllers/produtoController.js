@@ -13,7 +13,7 @@ exports.criarProduto = async (req, res, next) => {
         const result = await pool.query(
           `INSERT INTO produtos.produtos (nome, descricao, preco, estoque, datacriacao) VALUES($1, $2, $3, $4, NOW()) RETURNING *`, [nome, descricao, preco, estoque]  
         );
-        res.status(200).json(result.rows[0]);
+        res.status(201).json(result.rows[0]);
     } catch(error) {
         next(error);
     } 
